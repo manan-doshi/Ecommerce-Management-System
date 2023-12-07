@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Brawler:wght@700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 1px 4px hsl(0, 40%, 15% / 10%);
+    z-index: 100;
+  }
+/* Navbar  */
+
+#navbar img {
+    width: 60px;
+    margin: 10px 15px;
+}
+#navbar {
+    width: 100%;
+    display: flex;
+    /* background: linear-gradient(112.1deg, rgb(43, 52, 85) 11.4%, rgb(26, 34, 62) 70.2%); */
+    background: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+    /* background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% ); */
+}
+#name {
+    color: whitesmoke;
+    display: flex;
+    align-items: center; 
+    margin: 10px auto;
+    font-size: 35px;
+    font-family: 'Brawler', serif;
+    opacity: 0.90;
+}
+#name:hover{
+    opacity:inherit;
+}
+
+/* Offer details */
+
+h1 {
+    color: #333;
+}
+h2 {
+    color: #666;
+}
+.offer-details {
+    margin: 95px 20px 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background-color:#d8d8d8bf;;
+}
+.faq {
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #d8d8d8bf;;
+}
+.faq h3 {
+    color: #555;
+}
+.faq-item {
+    margin-bottom: 10px;
+}
+.faq-question {
+    color: #222;
+}
+.faq-answer {
+    color: #666;
+}
+.offer-conditions {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
+}
+.condition-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.condition-table th,
+.condition-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+.condition-header {
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+    .faq-item,
+    .offer-conditions {
+        margin-bottom: 20px;
+    }
+    .condition-table th,
+    .condition-table td {
+        padding: 6px;
+    }
+}
+
+/* Add responsive styles for even smaller screens */
+@media screen and (max-width: 480px) {
+    .condition-table th,
+    .condition-table td {
+        font-size: 12px;
+        padding: 4px;
+    }
+}
+
+/* Add responsive styles for larger screens */
+/* @media screen and (min-width: 1024px) {
+    .faq {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .faq-item,
+    .offer-conditions {
+        width: 48%;
+    }
+} */
+
+
+/* Scroll bar  */
+
+body.active {
+    overflow: hidden;
+  }
+  :focus-visible {
+    outline-offset: 4px;
+  }
+  ::placeholder {
+    color: var(--manatee);
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: hsl(0, 0%, 98%);
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: hsl(0, 0%, 80%);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: hsl(0, 0%, 70%);
+  }

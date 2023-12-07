@@ -1,0 +1,243 @@
+/* Add this CSS to style your labels and buttons */
+
+@import url('https://fonts.googleapis.com/css2?family=Brawler:wght@700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+ body{
+    --lt-blue: #c1c9d4;
+    --dk-blue: #fdfeff;
+    background-image: linear-gradient(to bottom,var(--lt-blue) 16%,transparent 12%),radial-gradient(ellipse at -20% -145%,transparent 83%,var(--lt-blue) 74%),linear-gradient(145deg,var(--lt-blue) 0,var(--dk-blue) 80%);
+    /* background: linear-gradient(to left top, #031A9A, #8B53FF); */
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    overflow: hidden; 
+} 
+
+/* Navbar  */
+
+#navbar img {
+    width: 60px;
+    margin: 10px 15px;
+}
+#navbar {
+    width: 100%;
+    display: flex;
+    /* background: linear-gradient(112.1deg, rgb(43, 52, 85) 11.4%, rgb(26, 34, 62) 70.2%); */
+    background: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+    /* background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% ); */
+}
+#name {
+    color: whitesmoke;
+    display: flex;
+    align-items: center; 
+    margin: 10px auto;
+    font-size: 35px;
+    font-family: 'Brawler', serif;
+    opacity: 0.90; 
+}
+#name:hover{
+    opacity:inherit;
+}
+
+    /* Form  */
+
+  .container{
+    max-width: 550px;
+    padding: 0 20px;
+    margin: 70px auto;
+  }
+  .wrapper{
+    width: 100%;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
+  }
+  .wrapper .title{
+    height: 90px;
+    background: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+    border-radius: 20px 20px 0 0;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrapper form{
+    border-radius: 0 0 20px 20px;
+    /* background: linear-gradient(58.2deg, rgba(40, 91, 212, 0.73) -3%, rgba(171, 53, 163, 0.45) 49.3%, rgb(29 232 8 / 46%) 97.7%); */
+    background-image: linear-gradient(62deg, #b1b1c1 0%, #ffffff 100%);
+        /* --lt-blue: #e6e7e9;
+    --dk-blue: #ffffff;
+    background: linear-gradient(to bottom,var(--lt-blue) 2%,transparent 13%),radial-gradient(ellipse at -20% -145%,transparent 83%,var(--lt-blue) 74%),linear-gradient(145deg,var(--lt-blue) 0,var(--dk-blue) 80%); */
+    padding: 50px 25px 45px 25px;
+  }
+
+  .wrapper form .row{
+    height: 50px;
+    margin-bottom: 15px;
+    position: relative;
+  }
+
+
+  .wrapper form .row input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    background-color: white;
+  }
+  form .row input:focus{
+    border-color: #16a085;
+    box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
+  }
+  form .row input::placeholder{
+    color: #999;
+  }
+.wrapper form .row i {
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: #000000;
+    font-size: 18px;
+    border: 1px solid #16a085;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .wrapper form .row input[type="text"],
+  .wrapper form .roww input[type="number"],
+  .wrapper form .row3 input[type="file"] {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  form .row input:focus {
+    border-color: #16a085;
+    box-shadow: inset 0px 0px 2px 2px rgba(26, 188, 156, 0.25);
+  }
+  
+  form .row input::placeholder {
+    color: #999;
+  }
+  
+  .wrapper form .row button {
+    height: 100%;
+    width: 100%;
+    background: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .wrapper form .row button:hover {
+    background-color: #138a6e;
+  }
+
+
+  .wrapper form .roww{
+    height: 50px;
+    margin-bottom: 15px;
+    position: relative;
+  }
+    .wrapper form .roww input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  form .roww input:focus{
+    border-color: #16a085;
+    box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
+  }
+  form .roww input::placeholder{
+    color: #999;
+  }
+
+  .wrapper form .roww i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: #000000;
+    font-size: 18px;
+    border: 1px solid #16a085;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+/* row 3 */
+.wrapper form .row3{
+  height: 50px;
+  margin-bottom: 15px;
+  position: relative;
+}
+  .wrapper form .row3 input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 60px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  background-color: white;
+  }
+form .row3 input:focus{
+  border-color: #16a085;
+  box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
+}
+form .row3 input:placeholder{
+  color: #999;
+
+}
+.wrapper form .row3 i{
+  position: absolute;
+  width: 47px;
+  height: 100%;
+  color: #000000;
+  font-size: 18px;
+  border: 1px solid #16a085;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.wrapper form .row4{
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+  border: 1px solid #fbfffe;
+  cursor: pointer;
+  box-shadow: 8px 4px 13px 2px rgba(0,13,20,0.3);
+}

@@ -1,0 +1,243 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/* Navbar */
+.navbar {
+	background: #134E5E;
+	background: -webkit-linear-gradient(to right, #71B280, #134E5E);
+	background: linear-gradient(to right, #71B280, #134E5E);
+}
+
+.admin_name {
+	color: whitesmoke;
+	font-size: 35px;
+	margin-right: 170px
+}
+
+.container-fluid .navbar-brand {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 35px;
+	color: rgb(255, 255, 255);
+	border: 3px solid rgba(255, 255, 255, 0.75);
+	border-radius: 6px;
+	background-color: black;
+	padding: 0 15px;
+	/*margin: 0 auto;*/
+	box-shadow: inset 8px 10px 11px 18px rgba(26, 188, 156, 0.25);
+	transition: 0.5s;
+}
+
+.container-fluid .navbar-brand:hover {
+	background-color: rgb(55, 55, 55);
+}
+
+.title a {
+	text-align: center;
+	font-size: 25px !important;
+}
+
+.navbar-nav .nav-link {
+	font-size: 20px;
+	margin: 0 0 12px;
+}
+
+.offcanvas-body {
+	border: 1.5px solid rgba(255, 255, 255, 0.55);
+	margin: 0 11px;
+	border-radius: 18px;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+
+.buttons {
+	text-align: right;
+	margin-top: 10px;
+}
+
+.buttons .btn-outline-light {
+	font-size: 16px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: #fff;
+	background-color: transparent;
+	border: 1px solid #fff;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+@media screen and (max-width: 330px) {
+	.container-fluid .navbar-brand {
+		font-size: 25px;
+	}
+}
+
+#name-input,
+#email-input,
+#update-name-input,
+#update-email-input {
+	width: 30%;
+	padding: 10px;
+	font-size: 16px;
+	margin-right: 10px;
+	border-radius: 5px;
+	border: 1px solid #000;
+}
+
+#container {
+	max-width: 99%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+	margin-top: 0;
+}
+
+#input-container {
+	margin-bottom: 20px;
+}
+
+table {
+	border-collapse: collapse !important;
+	width: 100%;
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+	margin-top: 24px;
+}
+
+th,
+td {
+	padding: 10px;
+	text-align: left;
+	border-bottom: 1px solid #ddd !important;
+}
+
+td {
+	border: 2px solid #ddd !important;
+}
+
+th {
+	background: rgb(32, 45, 58) 81.3%;
+	color: white !important;
+	text-align: center !important;
+}
+
+#button1 {
+	border: none;
+	border-radius: 4px;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+	background: rgb(229, 9, 20);
+	padding: 7px;
+	font-size: 18px;
+	font-weight: 700;
+	transition: 0.3s;
+}
+
+#button1:hover {
+	color: white;
+	background-color: rgb(184 11 19);
+}
+
+#button2 {
+	border: none;
+	border-radius: 4px;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+	background-color: green;
+	padding: 7px;
+	font-size: 18px;
+	font-weight: 700;
+	transition: 0.2s;
+	transition: 0.3s;
+}
+
+#button2:hover {
+	background-color: #046004;
+}
+
+
+/* Form CSS*/
+#update_product {
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	position: absolute;
+	left: 50%;
+	top: 89%;
+	transform: translate(-50%, -50%);
+	display: block;
+	max-width: 100%;
+	margin-top: 5px;
+	background-color: #9ba6a5;
+	box-shadow: 18px 0px 13px -1px rgba(0, 0, 0, 0.1);
+}
+
+#p {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 200;
+}
+
+#submit {
+	margin-bottom: 10px;
+	background-color: green;
+	color: black;
+	cursor: pointer;
+}
+
+#submit:hover {
+	background-color: darkgreen;
+	color: white;
+	border: white;
+}
+
+/* Form INPUTS*/
+#name,
+#price,
+#id,
+#dis,
+#image,
+#desc,
+#submit,
+#categories {
+	font-size: 16px;
+	border-radius: 5px;
+	padding: 10px;
+	border: none;
+	box-shadow: 10px 10px 13px 1px rgba(0, 0, 0, 0.1);
+}
+
+#categories {
+	padding: 10px 30px;
+	font-size: 16px;
+}
+
+/* LABELS*/
+
+#update_product label {
+	font-size: 20px;
+}
+
+
+
+.close-button {
+	position: absolute;
+	top: 1px;
+	right: 10px;
+	font-weight: 800;
+	font-size: 20px;
+	cursor: pointer;
+	color: #333;
+}
+
+.close-button:hover {
+	color: #f00;
+}
+
+#submit {
+	color: white;
+}

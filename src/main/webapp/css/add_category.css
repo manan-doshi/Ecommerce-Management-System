@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+	background: radial-gradient(circle at 10% 20%, rgb(90, 92, 106) 0%, rgb(32, 45, 58) 81.3%);
+    min-height: 100vh;
+}
+
+/* Navbar */
+
+.navbar{
+    background: #134E5E;  
+    background: -webkit-linear-gradient(to right, #71B280, #134E5E); 
+    background: linear-gradient(to right, #71B280, #134E5E);
+}
+.admin_name{
+	color: whitesmoke;
+	font-size: 35px;
+	margin-right: 170px
+}
+.container-fluid .navbar-brand{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    border: 3px solid rgba(255, 255, 255, 0.75);
+    border-radius: 6px;
+    background-color: black;
+    padding: 0 15px;
+    /*margin: 0 auto;*/
+    box-shadow: inset 8px 10px 11px 18px rgba(26,188,156,0.25);
+    transition: 0.5s;
+}
+.container-fluid .navbar-brand:hover{
+    background-color: rgb(55, 55, 55);
+}
+.title a{
+    text-align: center;
+    font-size: 25px !important;
+}
+.navbar-nav .nav-link{
+    font-size: 20px;
+    margin: 0  0 12px;
+}
+.offcanvas-body{
+    border: 1.5px solid rgba(255, 255, 255, 0.55);
+    margin: 0 11px;
+    border-radius: 18px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    }
+.buttons {
+    text-align: right; 
+    margin-top: 10px; 
+}
+.buttons .btn-outline-light {
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    transition: background-color 0.3s, color 0.3s;
+}
+@media screen and (max-width: 330px) {
+    .container-fluid .navbar-brand{
+        font-size: 25px;
+    }
+}
+
+/* Container  */
+
+#container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	margin-top: 130px;
+}
+
+/* FORM  */
+
+#form{
+	width: 540px;
+	border: none;
+	border-radius: 10px;
+    background-color: #9ba6a5;	
+    color: black;
+	padding-bottom: 10px;
+	box-shadow: 18px 0px 13px -1px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+/* Labels  */
+#label{
+	font-size: 20px;
+    margin-left: 120px;
+}
+
+
+/* Inputs */
+
+#form  input{
+	font-size: 16px;
+	border: none;
+	padding: 10px 10px 10px 40px ;
+	border-radius: 5px;
+    width:60%;
+    margin-left: 100px;
+    background-color: lightgray;
+	box-shadow: 10px 10px 13px 1px rgba(0,0,0,0.1);
+}
+#image{
+	font-size: 16px;
+    width: 60%;
+    margin-left: 100px;
+    padding-left: 2px;
+}
