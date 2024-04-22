@@ -6,9 +6,6 @@
 
 -  Admin has the capabilities to modify the items as per customer requirements, stock available, and satisfaction. Also admin can view all the customers feedbacks or review.
 
-- Please find the UML diagrams and Software Requirements Specification (SRS) documentation for the Ecommerce Management System via the following link: https://github.com/manan-doshi/Ecommerce-Management-System-BMP
-
-  ![Screenshot 2023-12-07 181458](https://github.com/manan-doshi/Ecommerce-Management-System/assets/135494066/60005c85-d7ac-4f08-895f-c34d3afc59bd)
   ![image](https://github.com/manan-doshi/Ecommerce-Management-System/assets/135494066/b9775f41-1f18-4433-bdd5-309e92ce050c)
   ![image](https://github.com/manan-doshi/Ecommerce-Management-System/assets/135494066/29b70c7c-9d45-4ab3-aae1-ca176231771e)
   ![image](https://github.com/manan-doshi/Ecommerce-Management-System/assets/135494066/c90ec042-f7bb-4064-94ea-1eb5d35c4252)
